@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install ALL dependencies
         run: |
           sudo apt update
           sudo apt install -y \
@@ -18,7 +18,7 @@ jobs:
             libncurses-dev libssl-dev libxml2-utils lz4 lzop \
             python3 python3-pip repo unzip zip zstd \
             clang lld llvm libclang-dev \
-            coreutils procps findutils sed gawk diffutils \
+            coreutils util-linux sed gawk diffutils procps findutils \
             libseccomp-dev
 
       - name: Setup ccache

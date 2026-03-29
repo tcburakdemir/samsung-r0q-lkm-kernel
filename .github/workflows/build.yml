@@ -13,9 +13,12 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y bc bison build-essential ccache flex git \
-            libncurses-dev libssl-dev libxml2-utils lz4 lzop python3 \
-            python3-pip repo unzip zip zstd clang lld llvm libclang-dev \
+          sudo apt install -y \
+            bc bison build-essential ccache flex git \
+            libncurses-dev libssl-dev libxml2-utils lz4 lzop \
+            python3 python3-pip repo unzip zip zstd \
+            clang lld llvm libclang-dev \
+            coreutils procps findutils sed gawk diffutils \
             libseccomp-dev
 
       - name: Setup ccache

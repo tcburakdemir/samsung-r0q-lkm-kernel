@@ -1,5 +1,5 @@
 
-obj-$(CONFIG_FIVE) += five.o
+# obj-$(CONFIG_FIVE) += five.o
 
 EXTRA_CFLAGS += -I$(src)
 asflags-y += -Isecurity/integrity/five

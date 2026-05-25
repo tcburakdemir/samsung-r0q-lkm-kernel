@@ -328,4 +328,4 @@ else
     asflags-y += $(DEFEX_DEFINES)
 endif
 
-obj-$(CONFIG_SECURITY_DEFEX) := $(defex-y)
+# obj-$(CONFIG_SECURITY_DEFEX) := $(defex-y)

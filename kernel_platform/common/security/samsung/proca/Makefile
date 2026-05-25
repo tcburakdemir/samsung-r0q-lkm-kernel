@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-obj-$(CONFIG_PROCA) += proca.o
+# obj-$(CONFIG_PROCA) += proca.o
 
 KERNEL := $(VERSION)_$(PATCHLEVEL)
 

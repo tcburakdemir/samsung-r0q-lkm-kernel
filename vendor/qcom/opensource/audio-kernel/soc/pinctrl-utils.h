@@ -1,1 +1,1 @@
-/home/dpi/qb5_8814/workspace/P4_1716/android/kernel_platform/./msm-kernel/drivers/pinctrl/pinctrl-utils.h
+/home/tcburakdemir/r0q_kernel/samsung-r0q-lkm-kernel/kernel_platform/./msm-kernel/drivers/pinctrl/pinctrl-utils.h
